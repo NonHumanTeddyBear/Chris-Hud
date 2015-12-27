@@ -5,10 +5,10 @@
 	{
  		"ControlName"	"CTFImagePanel"
  		"fieldName"		"TeamIndicator"
- 		"xpos"			"150"
+ 		"xpos"			"129"
  		"ypos"			"183"
  		"zpos"			"2"
- 		"wide"			"65"
+ 		"wide"			"100"
  		"tall"	 		"4"
  		"autoResize"	"0"
  		"pinCorner"		"0"
@@ -29,7 +29,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-330"
+		"xpos"			"c-333"
 		"ypos"			"r235"
 		"zpos"			"2"
 		"wide"			"350"

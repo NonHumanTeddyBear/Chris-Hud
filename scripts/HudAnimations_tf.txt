@@ -289,7 +289,7 @@ event HudHealthBonusPulseStop
         StopPanelAnimations xHairHappyPulse 0.0
         StopPanelAnimations xHairSmileyBG 0.0
 
-	Animate PlayerStatusHealthValue 	FgColor		"TanLight"		Linear 0.0 0.0
+	Animate PlayerStatusHealthValue 	FgColor		"0 0 255 225"		Linear 0.0 0.0
 
 	Animate PlayerStatusHealthValue2 	FgColor		"TanLight"		Linear 0.0 0.0
 

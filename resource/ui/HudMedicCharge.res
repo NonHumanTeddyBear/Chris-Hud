@@ -1,5 +1,47 @@
 "Resource/UI/HudMedicCharge.res"
 {	
+	"HudWeaponMedicBG"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"HudWeaponAmmoBG"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"0"
+		"tall"			"46"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"../hud/ammo_blue_bg"
+		"scaleImage"	"1"	
+		"teambg_2"		"../hud/ammo_red_bg"
+		"teambg_2_lodef"	"../hud/ammo_red_bg_lodef"
+		"teambg_3"		"../hud/ammo_blue_bg"
+		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
+	}
+		"TeamIndicator"
+	{
+ 		"ControlName"	"CTFImagePanel"
+ 		"fieldName"		"TeamIndicator"
+ 		"xpos"			"531"
+ 		"ypos"			"428"
+ 		"zpos"			"2"
+ 		"wide"			"75"
+ 		"tall"	 		"4"
+ 		"autoResize"	"0"
+ 		"pinCorner"		"0"
+ 		"visible" 		"1" 
+ 		"enabled" 		"1"
+ 		"image"			"../hud/color_panel_brown"
+ 		"scaleImage"		"1"
+ 		"teambg_1"		"../hud/color_panel_brown"
+ 		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+ 		
+ 		"src_corner_height"		"40"				// pixels inside the image
+ 		"src_corner_width"		"40"			
+ 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+ 		"draw_corner_height" 	"0"	
+ 	}
 	"Background"
 	{
 		"ControlName"	"CTFImagePanel"

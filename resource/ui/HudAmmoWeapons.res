@@ -18,6 +18,30 @@
 		"teambg_3"		"../hud/ammo_blue_bg"
 		"teambg_3_lodef"	"../hud/ammo_blue_bg_lodef"			
 	}
+		"TeamIndicator"
+	{
+ 		"ControlName"	"CTFImagePanel"
+ 		"fieldName"		"TeamIndicator"
+ 		"xpos"			"531"
+ 		"ypos"			"428"
+ 		"zpos"			"2"
+ 		"wide"			"75"
+ 		"tall"	 		"4"
+ 		"autoResize"	"0"
+ 		"pinCorner"		"0"
+ 		"visible" 		"1" 
+ 		"enabled" 		"1"
+ 		"image"			"../hud/color_panel_brown"
+ 		"scaleImage"		"1"
+ 		"teambg_1"		"../hud/color_panel_brown"
+ 		"teambg_2"		"../hud/color_panel_red"
+		"teambg_3"		"../hud/color_panel_blu"
+ 		
+ 		"src_corner_height"		"40"				// pixels inside the image
+ 		"src_corner_width"		"40"			
+ 		"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
+ 		"draw_corner_height" 	"0"	
+ 	}
 	"HudWeaponLowAmmoImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -61,7 +85,7 @@
 		"font_minmode"			"HudFontGarm3nAmmoReserv"
 		"fgcolor"		"TanLight"
 		"xpos"	"c82"
-		"ypos"	"r109"
+		"ypos"	"r111"
 		"xpos_minmode"			"c95"
 		"ypos_minmode"			"r155"
 		"zpos"			"5"

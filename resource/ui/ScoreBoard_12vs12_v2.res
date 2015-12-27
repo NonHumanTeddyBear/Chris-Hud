@@ -224,7 +224,7 @@
 		"font"			"HudFontGarm3nSmallest"
 		"labelText"		"%servertimeleft%"
 		"textAlignment"	"center"
-		"fgcolor"			"Garm3nHUDYellow"
+		"fgcolor"			"225 255 225 225"
 		"xpos"			"160"
 		"ypos"			"38"
 		"zpos"			"8"
