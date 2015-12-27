@@ -586,7 +586,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairUhOhPulse"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"zpos"			"2"
 
 		"xpos"			"c-16"
@@ -605,7 +605,7 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairHappyPulse"
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"zpos"			"2"
 
 		"xpos"			"c-16"
@@ -624,8 +624,8 @@
 		"controlName"	"CExLabel"
 		"fieldName"	 	"xHairSmileyBG"
 		"visible"		"0"
-		"enabled"		"1"
-		"zpos"			"1"
+		"enabled"		"0"
+		"zpos"			"0"
 
 		"xpos"			"c-17"
 		"ypos"			"r256"
@@ -660,7 +660,7 @@
 		"zpos"			"4"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"1" // 1
+		"visible"		"0" // 1
 		"enabled"		"0"
 		"scaleImage"	"1"	
 	}		
@@ -668,8 +668,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"45"
-		"ypos"			"139"
+		"xpos"			"999999"
+		"ypos"			"999999"
 		"zpos"			"3"
 		"wide"			"54" // 54
 		"tall"			"54" // 54
@@ -682,8 +682,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"34"	
-		"ypos"			"139" // 139	
+		"xpos"			"9999999"	
+		"ypos"			"999999" // 139	
 		"zpos"			"2"
 		"wide"			"54"	
 		"tall"			"54"	
