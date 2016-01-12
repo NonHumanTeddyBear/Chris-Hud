@@ -6,7 +6,7 @@
 		"text_x"				"0"
 		"text_y"				"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"Garm3nHUDRealGreen"
+		"PositiveColor"			"225 225 225 225"
 		"NegativeColor"			"Garm3nHUDDamage"
 		"delta_lifetime"		"1.0"
 		"delta_item_font"	"HudFontGarm3nSmallOutline"

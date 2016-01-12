@@ -4,18 +4,18 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairNormal"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"1"
 
 		"xpos"			"c-12"
-		"ypos"			"c-15"
+		"ypos"			"c-14"
 		"wide"			"26"
 		"tall"			"26"
 
 		"font"			"CrossHairNormal"
 		"labelText"		"+"
-		"fgcolor"		"235 226 202 255"
+		"fgcolor"		"0 0 0 0"
 		"textAlignment"	"center"
 	}
 
@@ -42,7 +42,7 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairKonrWings"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"2"
 
@@ -55,7 +55,7 @@
 		"labelText"		"i"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"255 255 255 255"
+		"fgcolor"		"225 255 0 225"
 	}
 
 	CrossHairKonrDot
@@ -67,7 +67,7 @@
 		"zpos"			"2"
 
 		"xpos"			"c-13"
-		"ypos"			"c-10"
+		"ypos"			"c-9"
 		"wide"			"34"
 		"tall"			"32"
 
@@ -75,7 +75,7 @@
 		"labelText"		"'"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"225 255 0 255"
 	}
 
 	CrossHairKonrWingsOutline
@@ -102,12 +102,12 @@
 	{
 		"controlName"	"CExLabel"
 		"fieldName"	 	"CrossHairKonrDotOutline"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
 		"zpos"			"2"
 
 		"xpos"			"c-16"
-		"ypos"			"c-15"
+		"ypos"			"c-14"
 		"wide"			"33"
 		"tall"			"32"
 
@@ -115,7 +115,7 @@
 		"labelText"		"+"
 		"textAlignment"	"center"	
 		
-		"fgcolor"		"0 255 0 255"
+		"fgcolor"		"225 225 0 255"
 	}
 
 	CrossHairCircle
@@ -236,6 +236,27 @@
 		"textAlignment"	"center"	
 		
 		"fgcolor"		"255 255 0 255"
+	}
+	
+	ThinCircle
+	{
+		"controlName"	"CExLabel"
+		"fieldName"	 	"ThinCircle"
+		"visible"		"0"
+		"enabled"		"1"
+		"zpos"			"2"
+
+		"xpos"			"c-100"
+		"ypos"			"c-96"
+		"wide"			"200"
+		"tall"			"200"
+
+		//"font"			"CrosshairsOutline34"
+		"font"			"Crosshairs34"
+		"labelText"		"9"
+		"textAlignment"	"center"	
+		
+		"fgcolor"		"255 255 255 255"
 	}
 
 	HudPlayerStatus
@@ -401,7 +422,32 @@
 		"SelectedBoxClor" "0 0 0 220"
 		"SelectionNumberFg"	"200 187 161 255"
 		"NumberFont" "HudSelectionText"
-	}	
+	}
+
+	"CTFKillStreakNotice"
+	{
+		"fieldName"		"CTFKillStreakNotice"
+		"xpos"			"0"			
+		"ypos"			"0"
+		"wide"			"640"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"bgcolor_override"	"0 0 0 0"
+		"PaintBackgroundType"	"0" // rounded corners
+	}
+	
+	"HudMenuTauntSelection"
+	{
+		"fieldName" 	"HudMenuTauntSelection"
+		"visible" 		"1"
+		"enabled" 		"1"
+		"xpos"			"c-235"
+		"ypos"			"c-85"
+		"wide"			"470"
+		"tall"			"200"
+		"PaintBackgroundType"	"0"
+	}
 	
 	CHudAccountPanel
 	{
@@ -1498,4 +1544,5 @@
 		"wide"			"320"
 		"tall"			"150"
 	}
+	
 }

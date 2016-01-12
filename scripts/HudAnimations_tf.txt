@@ -976,9 +976,9 @@ event NotificationsPresentBlinkStop
 
 event DamagedPlayer
 {
-	// empty
-}
-
+	Animate CrossHairNormal Fgcolor "225 0 0 255" Linear 0.0 0.00001
+	Animate CrossHairNormal Fgcolor "0 0 0 0" Linear 0.20 0.20001
+}	
 //===========================================
 
 event SpyWarningFlash

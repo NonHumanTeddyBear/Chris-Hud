@@ -503,7 +503,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Cerbetica Bold"
 				"tall"		"12"
 				"weight"	"500"
 				"underline" "1"
@@ -1521,7 +1521,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -1531,7 +1531,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -1540,7 +1540,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -1549,7 +1549,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -1587,7 +1587,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -1599,7 +1599,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -1621,7 +1621,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -1666,7 +1666,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -1907,7 +1907,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -1967,7 +1967,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -1977,7 +1977,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -1988,7 +1988,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -1997,7 +1997,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -2006,7 +2006,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -2026,7 +2026,7 @@ Scheme
 			}
 			"1"	[$X360]
 			{
-				"name"		"Tahoma"
+				"name"		"Cerbetica Bold"
 				"tall"		"18"
 				"weight"	"200"
 				"outline"	"1"
@@ -2091,7 +2091,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Cerbetica Bold"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -2102,7 +2102,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Cerbetica Bold"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"500"
@@ -2114,7 +2114,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Cerbetica Bold"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"900"
@@ -2125,7 +2125,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Cerbetica Bold"
 				"tall"		"24"
 				"tall_hidef"	"32"
 				"weight"	"900"
@@ -2137,7 +2137,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Tahoma"
+				"name"		"Cerbetica Bold"
 				"tall"		"16"
 				"tall_hidef"	"24"
 				"weight"	"900"
@@ -2160,7 +2160,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -2181,7 +2181,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -2206,7 +2206,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Cerbetica_edited Professor"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -2221,7 +2221,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Cerbetica_edited Professor"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -2236,7 +2236,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Professor"
+				"name"		"Cerbetica_edited Professor"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -2249,7 +2249,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"TF2 Professor"
+				"name"			"Cerbetica_edited Professor"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -2276,7 +2276,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2 Secondary"
+				"name"		"Cerbetica_edited Secondary"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -2289,7 +2289,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"14"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -2342,7 +2342,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -2352,7 +2352,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -2362,7 +2362,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -2371,7 +2371,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -2380,7 +2380,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -2473,7 +2473,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -2573,7 +2573,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -2586,7 +2586,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -2598,7 +2598,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3061,7 +3061,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"TF2"
+				"name"		"Cerbetica_edited"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -3130,6 +3130,16 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
+			}
+		}
+		"Crosshairs34"
+		{
+			"1"
+			{
+			"name"			"Crosshairs"
+			"tall" 			"34"
+			"weight" 		"0"
+			"antialias" 	"1"
 			}
 		}
 	}
@@ -4623,85 +4633,176 @@ Scheme
 				"range" "0x0000 0xFFFF"
 			}
 		}
+		
 		"7" 
 		{
+		
 			"font" "resource/FORMASGE.ttf"
 			"name" "FORMASGE"
-		}			
+		}
+		
 		"8" 
 		{
+		
 			"font" "resource/kimberley bl.otf"
 			"name" "kimberley bl"
-		}			
+		}
+		
 		"9" 
 		{
+		
 			"font" "resource/symbol.ttf"
 			"name" "symbol"
 		}
+		
 		"10" 
 		{
+		
 			"font" "resource/BULLBA__0.TTF"
 			"name" "BULLBA__0"
 		}
+		
 		"11" 
 		{
+		
 			"font" "resource/Deathe Maach NCV.ttf"
 			"name" "Deathe Maach NCV"
 		}
+		
 		"12" 
 		{
+		
 			"font" "resource/Paula.ttf"
 			"name" "Paula"
 		}
+		
 		"13" 
 		{
+		
 			"font" "resource/framd.ttf"
 			"name" "framd"
 		}
+		
 		"14" 
 		{
+		
 			"font" "resource/Arista2.0 light.ttf"
 			"name" "Arista2.0 light"
 		}
+		
 		"15" 
 		{
+		
 			"font" "resource/Cerebro.ttf"
 			"name" "Cerebro"
 		}
+		
 		"16" 
 		{
+		
 			"font" "resource/m.ttf"
 			"name" "m"
 		}
+		
 		"17" 
 		{
+		
 			"font" "resource/Guifx v2 Transports.ttf"
 			"name" "Guifx v2 Transports"
 		}
+		
 		"18" 
 		{
+		
 			"font" "resource/Garm3nFont.ttf"
 			"name" "Garm3nFont"
 		}
+		
 		"19" 
 		{
+		
 			"font" "resource/Retro Mono Wide.ttf"
 			"name" "Retro Mono Wide"
 		}
+		
 		"20" 
 		{
+		
 			"font" "resource/Soldier.ttf"
 			"name" "Soldier"
 		}
+		
 		"21" 
 		{
+		
 			"font" "resource/PIZZADUDEBULLETS.ttf"
 			"name" "PIZZADUDEBULLETS"
 		}
+		
 		"22" 
 		{
+		
 			"font" "resource/emoticons.ttf"
 			"name" "emoticons"
-		}			
-	}
-}
+		}	
+		
+		"23" // Fog's xHairs
+		{
+		
+			"font" "resource/crosshairs.ttf"
+			"name" "Crosshairs"
+		}
+	
+		"24" // Edited font for TargetIDs, menus, etc.
+		{
+		
+			"font" "resource/Cerbetica_edited.ttf"
+			"name" "Cerbetica_edited"
+		}
+		
+		"25" // Cerbetica bolded, for ammo/health, etc.
+		{
+		
+			"font" "resource/Cerbetica_bold.ttf"
+			"name" "Cerbetica Bold"
+		}
+		"26"
+		{
+		
+			"font" "resource/GothamCondensed-Medium.otf"
+			"name" "gothamcondensed-medium"
+		}
+		
+	//Font deffinitions
+	
+	"Cerbetica9"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica_edited"
+				"tall" 		 "9"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		
+		"CerbeticaBold28"
+		{
+			"1"
+			{
+				"name"		 "Cerbetica Bold"
+				"tall" 		 "28"
+				"additive"	 "0"
+				"antialias"	 "1"
+			}
+		}
+		"HudFontSmallBold"
+		{
+			"1"
+			{
+				"name"		"gothamcondensed-medium"
+				"tall"		"14"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}

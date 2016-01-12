@@ -24,7 +24,7 @@
 			"xpos"			"0"
 			"ypos"			"150"
 			"wide"			"250"
-			"tall"			"26"
+			"tall"			"30"
 			"visible"		"1"
 			
 			"SubButton"
@@ -34,7 +34,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"wide"			"250"
-				"tall"			"26"
+				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
@@ -120,7 +120,7 @@
 		}
 	}	
 	
-	"Background"
+		"Background"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"Background"
@@ -136,21 +136,30 @@
 		
 		if_halloween_0
 		{
-			"image"		"../console/title_team_halloween2011"
+			"image"		"../console/background_upward"
 		}
 		if_halloween_1
 		{
-			"image"		"../console/title_team_halloween2012"
+			"image"		"../console/background_upward"
+		}
+		if_halloween_2
+		{
+			"image"		"../console/background_upward"
 		}
 		if_fullmoon
 		{
-			"image"		"../console/title_fullmoon"
+			"image"		"../console/background_upward"
 		}
 		if_christmas
 		{
-			"image"		"../console/background_xmas2011"
+			"image"		"../console/background_upward"
+		}
+		if_eotl_launch
+		{
+			"image"		"../console/background_upward"
 		}
 	}
+		
 					
 	"TFLogoImage"
 	{
@@ -171,13 +180,13 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFCharacterImage"
-		"xpos"			"c-250"
+		"xpos"			"99999999999999999999999"
 		"ypos"			"-80"
 		"zpos"			"-99"
 		"wide"			"600"
 		"tall"			"600"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
 	}
 	
@@ -211,7 +220,7 @@
 		"xpos"			"c-278"
 		"ypos"			"93"
 		"wide"			"140"
-		"tall"			"26"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -648,6 +657,56 @@
 			}
 		}
 		
+		"SubButton"
+		{
+			"ControlName"					"CExImageButton"
+			"fieldName"						"SubButton"
+			"xpos"							"0"
+			"ypos"							"0"
+			"wide"							"f0"
+			"tall"							"f0"
+			"autoResize"					"0"
+			"pinCorner"						"3"
+			"visible"						"1"
+			"enabled"						"1"
+			"tabPosition"					"0"
+			"textinsetx"					"25"
+			"labelText"						""
+			"use_proportional_insets" 		"1"
+			"font"							"HudFontSmallBold"
+			"command"						"questlog"
+			"textAlignment"					"west"
+			"dulltext"						"0"
+			"brighttext"					"0"
+			"default"						"1"
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			"actionsignallevel" 			"2"
+			"proportionaltoparent"			"1"
+				
+			"sound_depressed"				"UI/buttonclick.wav"
+			"sound_released"				"UI/buttonclickrelease.wav"
+			"paintbackground"				"0"
+			"paintborder"					"0"
+			"image_drawcolor"				"255 255 255 255"
+			"image_armedcolor"				"240 134 49 255"
+
+			"SubImage"
+			{
+				"ControlName"	"ImagePanel"
+				"fieldName"		"SubImage"
+				"xpos"			"0"
+				"ypos"			"0"
+				"zpos"			"1"
+				"wide"			"20"
+				"tall"			"20"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay\thumbnails\contracts"
+				"scaleImage"	"1"
+			}		
+		}
+		
 		"MOTD_URLButton"
 		{
 			"ControlName"	"CExButton"
@@ -1051,7 +1110,7 @@
 		"ypos"			"r292"
 		"zpos"			"11"
 		"wide"			"250"
-		"tall"			"26"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
@@ -1068,7 +1127,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"250"
-			"tall"			"26"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1117,7 +1176,7 @@
 		"ypos"			"r182"
 		"zpos"			"11"
 		"wide"			"250"
-		"tall"			"26"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
@@ -1133,7 +1192,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"250"
-			"tall"			"26"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1182,7 +1241,7 @@
 		"ypos"			"r160"
 		"zpos"			"1"
 		"wide"			"250"
-		"tall"			"26"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
@@ -1199,7 +1258,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"250"
-			"tall"			"26"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1249,7 +1308,7 @@
 		"ypos"			"r248"
 		"zpos"			"11"
 		"wide"			"250"
-		"tall"			"26"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
@@ -1266,7 +1325,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"250"
-			"tall"			"26"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1330,7 +1389,7 @@
 		"ypos"			"r270"
 		"zpos"			"11"
 		"wide"			"250"
-		"tall"			"26"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 
@@ -1346,7 +1405,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"250"
-			"tall"			"26"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1570,7 +1629,7 @@
 		"ypos"			"r292"
 		"zpos"			"11"
 		"wide"			"250"
-		"tall"			"26"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"SubButton"
@@ -1580,7 +1639,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"250"
-			"tall"			"26"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1631,7 +1690,7 @@
 		"ypos"			"r358"
 		"zpos"			"11"
 		"wide"			"270"
-		"tall"			"26"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
@@ -1646,7 +1705,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"250"
-			"tall"			"26"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1697,7 +1756,7 @@
 		"ypos"			"r335"
 		"zpos"			"11"
 		"wide"			"250"
-		"tall"			"26"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 		"SubButton"
@@ -1707,7 +1766,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"250"
-			"tall"			"26"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1758,7 +1817,7 @@
 		"ypos"			"r336"
 		"zpos"			"11"
 		"wide"			"270"
-		"tall"			"26"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
@@ -1774,7 +1833,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"250"
-			"tall"			"26"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1825,7 +1884,7 @@
 		"ypos"			"r314"
 		"zpos"			"11"
 		"wide"			"250"
-		"tall"			"26"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
 
@@ -1841,7 +1900,7 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"250"
-			"tall"			"26"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1892,7 +1951,7 @@
 		"ypos"			"r318"
 		"zpos"			"11"
 		"wide"			"260"
-		"tall"			"26"
+		"tall"			"30"
 		"visible"		"1"
 		"PaintBackgroundType"	"2"
 		"border"		""
@@ -1903,7 +1962,7 @@
 			"xpos"			"5"
 			"ypos"			"5"
 			"wide"			"250"
-			"tall"			"26"
+			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
@@ -1953,8 +2012,8 @@
 		"xpos"			"c-92"
 		"ypos"			"r107"
 		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 
 		"SubButton"
@@ -2075,8 +2134,8 @@
 		"xpos"			"c-124"
 		"ypos"			"r109"
 		"zpos"			"12"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"30"
+		"tall"			"30"
 		"visible"		"1"
 
 		"SubButton"
@@ -2221,8 +2280,8 @@
 		"xpos"			"c-270"
 		"ypos"			"r109"
 		"zpos"			"3"
-		"wide"			"26"
-		"tall"			"26"
+		"wide"			"30"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2441,7 +2500,7 @@
 		"ypos"			"r204"
 		"zpos"			"1"
 		"wide"			"250"
-		"tall"			"26"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2497,7 +2556,7 @@
 		"ypos"			"r226"
 		"zpos"			"1"
 		"wide"			"250"
-		"tall"			"26"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2554,7 +2613,7 @@
 		"ypos"			"r138"
 		"zpos"			"1"
 		"wide"			"250"
-		"tall"			"26"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2610,7 +2669,7 @@
 		"ypos"			"r138"
 		"zpos"			"1"
 		"wide"			"150"
-		"tall"			"26"
+		"tall"			"30"
 		"autoResize"	"0"
 		"pinCorner"		"3"
 		"visible"		"1"
@@ -2766,7 +2825,7 @@
 			"xpos"			"10"
 			"ypos"			"85"
 			"wide"			"230"
-			"tall"			"26"
+			"tall"			"30"
 			"visible"		"1"
 			
 			"SubButton"
@@ -2776,7 +2835,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"wide"			"230"
-				"tall"			"26"
+				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
@@ -2934,7 +2993,7 @@
 			"xpos"			"10"
 			"ypos"			"85"
 			"wide"			"230"
-			"tall"			"26"
+			"tall"			"30"
 			"visible"		"1"
 			
 			"SubButton"
@@ -2944,7 +3003,7 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"wide"			"230"
-				"tall"			"26"
+				"tall"			"30"
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
